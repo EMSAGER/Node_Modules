@@ -41,7 +41,7 @@ async function webCat(url, out){
     //USE TRY & CATCH
     try {
         let res = await axios.get(url);
-        handleOutput(res.data);
+        handleOutput(res.data, out);
     }
     catch(err){
         console.error(`Error reading ${url} : ${err}`);
