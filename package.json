@@ -1,0 +1,11 @@
+{
+  "name": "nm_exercise",
+  "version": "1.0.0",
+  "description": "Exercise on working with node modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EMSager",
+  "license": "ISC"
+}
